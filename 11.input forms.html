@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input{
+        width: 20px;
+        text-align: center;
+    }
+    td{
+        text-align:left;
+        padding-right: 100px;
+        
+    }
+</style>
+<body>
+    <form>
+        <h1>EDUCATION DETAILS</h1>
+        <table border="1">
+
+            <tr>
+                <th>Gender</th>
+                    <td>
+                        <input type="radio" name="gender">Male 
+                        <input type="radio" name="gender">Female 
+                    </td> 
+            </tr>
+
+            <tr>
+                <th> Qualification </th>    
+                    <td>
+                        <input type="checkbox" name="Quali">BE <br>
+                        <input type="checkbox" name="Quali">BSc<br>
+                        <input type="checkbox" name="Quali">BCA <br>
+                        <input type="checkbox" name="Quali">Bcom <br>
+                        <input type="checkbox" name="Quali">BTech 
+                    </td>    
+            </tr>
+
+            <tr>
+                <th> Department</th>
+                    <td >
+                        <select name="dept">
+                        <option value="select">Select</option>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>Civil</option>
+                        <option>Mechanical</option>
+                        <option>EEE</option>
+                        <option>AIML</option>
+                        <option>None</option>
+                        </select> 
+                    </td>
+            </tr>
+
+        <tr>
+            <th><label for="name">Name</label> </th>
+                <td>
+                    <input type="text" id="name">
+                </td> 
+        </tr> 
+        <tr>       
+            <th><label for="age">Age</label></th> 
+                <td>
+                    <input type="text" id="Age">
+                </td>
+        </tr>
+            <th><label for="dept">Department</label></th>
+                <td>
+                    <input type="text" id="Department">
+                </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
